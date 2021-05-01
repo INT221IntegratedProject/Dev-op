@@ -8,9 +8,10 @@ We are curently using " Ubuntu:18.04 " to run the docker and other.
 ```bash
 git version
 ```
-2.) Install Docker.
+2.) Install Docker and Docker-compose
 ```bash
 sudo apt install docker.io
+sudo apt install docker-compose
 docker --version
 ```
 3.) Clone this repository , a directory should have a structure like the following.
