@@ -1,0 +1,8 @@
+services:
+  intergrated:
+    build: .
+    image: ghcr.io/INT221IntegratedProject/Dev-op:main
+    ports:
+      - "8080:8080"
+    environment:
+      SERVICE_VERSION: v2
